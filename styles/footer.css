@@ -1,0 +1,13 @@
+.footer-container {
+  position: relative;
+}
+.footer {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  z-index: 150;
+  padding-left: -96;
+}
