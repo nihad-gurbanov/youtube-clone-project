@@ -30,14 +30,23 @@
   padding-left: 96px;
   padding-right: 24px;
 }
-
-@media (max-width: 750px) {
+@media (max-width: 450px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+@media (min-width: 451px) and (max-width: 750px) {
   .video-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 751) and (max-width: 999) {
+@media (min-width: 751px) and (max-width: 999px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
